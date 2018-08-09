@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resto RESA</title><!-- titre de la page -->
+</head>
+<body>
+
+<!--header-->
+<h2 align="center"><u>Le prix d’un sandwitch est de 4dt (10% de remise sur les commandes de plus de 10 sandwitch)</u></h2>
+<br>
+
+<!--la form-->
+    <form action="recap.php" method="post" enctype = "multipart/form-data"> <!-- envoye de la form avec POST -->
+
+        <input type="text" placeholder="Nom" name="nom"><br><br>
+        <input type="text" placeholder="Prenom" name="prenom"><br><br>
+        <input type="number" placeholder="Numbre de sandwitch" name="nbrSand"><br><br>
+        <textarea placeholder="address" name="addresse"></textarea><br><br>
+
+        <!--section de type de viande -->
+        <select name="viandeType"><br>
+                <option value="viande">viande</option>
+                <option value="poulet">poulet</option>
+                <option value="escalope">escalope</option>
+        </select><br><br>
+        <input type="checkbox" name="ingredient[]" value="Harissa">Harissa<br>
+        <input type="checkbox" name="ingredient[]" value="Salade">Salade<br>
+        <input type="checkbox" name="ingredient[]" value="Mayonnaise">Mayonnaise<br>
+
+
+        <input type="file" name="card" value="idCard">Uploard Votre CIN<br><br>
+
+        <!--le bouton d'envoye-->
+        <button style="font-size: 14px; font-weight: bold;" type="submit" name="send">Commender</button>
+    </form>
+</body>
+</html>
