@@ -3,4 +3,4 @@ Afin d'etre sur de la personne qui commande le Sandwich, ajouter le champ CIN et
 
 
 
-https://comgoon.github.io/Ajout-champ-CIN-et-son-upload-dans-la-FORM-DU-RESTO/">lien vers la home page!
+<a href="https://comgoon.github.io/Ajout-champ-CIN-et-son-upload-dans-la-FORM-DU-RESTO/">lien vers la home page!</a>
